@@ -20,4 +20,4 @@ Flutter (Dart), Firebase, Anthropic Claude API (`claude-haiku-4-5-20251001`), Op
 
 **What makes it valuable:**
 
-Most people open businesses based on gut feeling or copying competitors. Boosla replaces that with real data income levels, competitor density, audience patterns — and turns it into a clear recommendation anyone can understand, in Arabic, in under a minute.
+Most people open businesses based on gut feeling or copying competitors. Boosla replaces that with real data income levels, competitor density, audience patterns and turns it into a clear recommendation anyone can understand, in Arabic, in under a minute.
