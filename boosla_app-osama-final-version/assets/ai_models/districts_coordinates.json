@@ -1,0 +1,662 @@
+{
+  "Al Amal Dist.": {
+    "latitude": 24.645524666666663,
+    "longitude": 46.71758963333334
+  },
+  "Al Andalus Dist.": {
+    "latitude": 24.746211466666665,
+    "longitude": 46.78464251666667
+  },
+  "Al Aqeeq Dist.": {
+    "latitude": 24.775077366666668,
+    "longitude": 46.62833255
+  },
+  "Al Arid Dist.": {
+    "latitude": 24.875269466666666,
+    "longitude": 46.615450933333335
+  },
+  "Al Awaly Dist.": {
+    "latitude": 24.557806866666667,
+    "longitude": 46.60839380000001
+  },
+  "Al Aziziyah Dist.": {
+    "latitude": 24.585480416666666,
+    "longitude": 46.76746938333334
+  },
+  "Al Bayan Dist.": {
+    "latitude": 24.881301683333334,
+    "longitude": 46.86464853333333
+  },
+  "Al Dar Al Baida Dist.": {
+    "latitude": 24.56516745,
+    "longitude": 46.78717795
+  },
+  "Al Dhubbat Dist.": {
+    "latitude": 24.678999083333334,
+    "longitude": 46.72270115
+  },
+  "Al Dirah Dist.": {
+    "latitude": 24.632897833333335,
+    "longitude": 46.711156949999996
+  },
+  "Al Duraihemiyah Dist.": {
+    "latitude": 24.5900772,
+    "longitude": 46.6931048
+  },
+  "Al Ezdihar Dist.": {
+    "latitude": 24.777481316666666,
+    "longitude": 46.71776928333333
+  },
+  "Al Faisaliyah Dist.": {
+    "latitude": 24.673152366666667,
+    "longitude": 46.7089569
+  },
+  "Al Falah Dist.": {
+    "latitude": 24.79825875,
+    "longitude": 46.70382145
+  },
+  "Al Farooq Dist.": {
+    "latitude": 24.65848795,
+    "longitude": 46.783814750000005
+  },
+  "Al Fayha Dist.": {
+    "latitude": 24.681424649999997,
+    "longitude": 46.81212188333333
+  },
+  "Al Ghadeer Dist.": {
+    "latitude": 24.772288899999996,
+    "longitude": 46.65407761666666
+  },
+  "Al Hada Dist.": {
+    "latitude": 24.66657,
+    "longitude": 46.62661692499999
+  },
+  "Al Hamra Dist.": {
+    "latitude": 24.77629623333333,
+    "longitude": 46.7596689
+  },
+  "Al Hazm Dist.": {
+    "latitude": 24.53874455,
+    "longitude": 46.65105985
+  },
+  "Al Janadriyah Dist.": {
+    "latitude": 24.8264278,
+    "longitude": 46.86948661666667
+  },
+  "Al Jazeerah Dist.": {
+    "latitude": 24.6708239,
+    "longitude": 46.79179306666666
+  },
+  "Al Khaleej Dist.": {
+    "latitude": 24.77581143333333,
+    "longitude": 46.801642233333325
+  },
+  "Al Khalidiyah Dist.": {
+    "latitude": 24.669033216666666,
+    "longitude": 46.6904744
+  },
+  "Al Mahdiyah Dist.": {
+    "latitude": 24.66486465,
+    "longitude": 46.533749150000006
+  },
+  "Al Maizalah Dist.": {
+    "latitude": 24.791479,
+    "longitude": 46.84161566666666
+  },
+  "Al Malaz Dist.": {
+    "latitude": 24.66380476666667,
+    "longitude": 46.73331976666666
+  },
+  "Al Malqa Dist.": {
+    "latitude": 24.80384675,
+    "longitude": 46.60582466666667
+  },
+  "Al Manakh Dist.": {
+    "latitude": 24.622688083333333,
+    "longitude": 46.79816053333334
+  },
+  "Al Manar Dist.": {
+    "latitude": 24.72397873333333,
+    "longitude": 46.79312591666667
+  },
+  "Al Mansurah Dist.": {
+    "latitude": 24.609815616666666,
+    "longitude": 46.74835488333333
+  },
+  "Al Marwah Dist.": {
+    "latitude": 24.54546091666667,
+    "longitude": 46.677182666666674
+  },
+  "Al Masani Dist.": {
+    "latitude": 24.56706493333333,
+    "longitude": 46.745378833333326
+  },
+  "Al Maseef Dist.": {
+    "latitude": 24.764567999999997,
+    "longitude": 46.68035791666667
+  },
+  "Al Mathar Dist.": {
+    "latitude": 24.670924533333334,
+    "longitude": 46.672652433333326
+  },
+  "Al Mughrazat Dist.": {
+    "latitude": 24.762953016666668,
+    "longitude": 46.719927750000004
+  },
+  "Al Muhammadiyah Dist.": {
+    "latitude": 24.733912166666666,
+    "longitude": 46.6471039
+  },
+  "Al Munisiyah Dist.": {
+    "latitude": 24.82682966666667,
+    "longitude": 46.7683951
+  },
+  "Al Murabba Dist.": {
+    "latitude": 24.66005463333333,
+    "longitude": 46.705780833333336
+  },
+  "Al Mursalat Dist.": {
+    "latitude": 24.752980166666664,
+    "longitude": 46.68999396666667
+  },
+  "Al Muruj Dist.": {
+    "latitude": 24.756144283333338,
+    "longitude": 46.66317325
+  },
+  "Al Nada Dist.": {
+    "latitude": 24.804411975,
+    "longitude": 46.684464524999996
+  },
+  "Al Nadheem Dist.": {
+    "latitude": 24.813356483333333,
+    "longitude": 46.8869345
+  },
+  "Al Nadwah Dist.": {
+    "latitude": 24.793949366666663,
+    "longitude": 46.87141641666667
+  },
+  "Al Nafel Dist.": {
+    "latitude": 24.78116043333333,
+    "longitude": 46.67531838333334
+  },
+  "Al Nahdah Dist.": {
+    "latitude": 24.760076283333333,
+    "longitude": 46.81566026666667
+  },
+  "Al Nakheel Dist.": {
+    "latitude": 24.742582,
+    "longitude": 46.6235667
+  },
+  "Al Namudhajiyah Dist.": {
+    "latitude": 24.659798025,
+    "longitude": 46.696256399999996
+  },
+  "Al Narjis Dist.": {
+    "latitude": 24.846872083333334,
+    "longitude": 46.67246325
+  },
+  "Al Nuzha Dist.": {
+    "latitude": 24.758261349999998,
+    "longitude": 46.70911403333333
+  },
+  "Al Olaya Dist.": {
+    "latitude": 24.690488616666666,
+    "longitude": 46.68479703333333
+  },
+  "Al Qadisiyah Dist.": {
+    "latitude": 24.818803716666668,
+    "longitude": 46.81401348333333
+  },
+  "Al Qairawan Dist.": {
+    "latitude": 24.830185983333333,
+    "longitude": 46.59548086666666
+  },
+  "Al Quds Dist.": {
+    "latitude": 24.755816600000003,
+    "longitude": 46.75358433333334
+  },
+  "Al Raed Dist.": {
+    "latitude": 24.710792425,
+    "longitude": 46.6327713
+  },
+  "Al Rawabi Dist.": {
+    "latitude": 24.6916689,
+    "longitude": 46.78569221666667
+  },
+  "Al Rawdah Dist.": {
+    "latitude": 24.735017083333332,
+    "longitude": 46.76685575000001
+  },
+  "Al Rayan Dist.": {
+    "latitude": 24.708152883333337,
+    "longitude": 46.780492149999986
+  },
+  "Al Rimal Dist.": {
+    "latitude": 24.851071699999995,
+    "longitude": 46.81007966666667
+  },
+  "Al Saadah Dist.": {
+    "latitude": 24.696161716666666,
+    "longitude": 46.84482875
+  },
+  "Al Safa Dist.": {
+    "latitude": 24.672729866666668,
+    "longitude": 46.77356255000001
+  },
+  "Al Sahafah Dist.": {
+    "latitude": 24.804024566666666,
+    "longitude": 46.64074468333333
+  },
+  "Al Salam Dist.": {
+    "latitude": 24.70517418333333,
+    "longitude": 46.80743955
+  },
+  "Al Sharafiyah Dist.": {
+    "latitude": 24.654183183333334,
+    "longitude": 46.67066219999999
+  },
+  "Al Shifa Dist.": {
+    "latitude": 24.564373149999998,
+    "longitude": 46.70005305
+  },
+  "Al Shohda Dist.": {
+    "latitude": 24.787416016666665,
+    "longitude": 46.73489043333334
+  },
+  "Al Sulaimaniyah Dist.": {
+    "latitude": 24.702994766666666,
+    "longitude": 46.70246216666667
+  },
+  "Al Sulay Dist.": {
+    "latitude": 24.661288933333335,
+    "longitude": 46.8438049
+  },
+  "Al Suwaidi Dist.": {
+    "latitude": 24.59091048333333,
+    "longitude": 46.67033511666667
+  },
+  "Al Taawun Dist.": {
+    "latitude": 24.77359081666667,
+    "longitude": 46.700967616666674
+  },
+  "Al Wadi Dist.": {
+    "latitude": 24.788114933333333,
+    "longitude": 46.69340666666667
+  },
+  "Al Wahah Dist.": {
+    "latitude": 24.74420655,
+    "longitude": 46.708796675
+  },
+  "Al Wisham Dist.": {
+    "latitude": 24.64468425,
+    "longitude": 46.69928381666667
+  },
+  "Al Woroud Dist.": {
+    "latitude": 24.720590066666663,
+    "longitude": 46.677244550000005
+  },
+  "Al Yarmuk Dist.": {
+    "latitude": 24.809532966666666,
+    "longitude": 46.781340633333336
+  },
+  "Al Yasmeen Dist.": {
+    "latitude": 24.82192931666667,
+    "longitude": 46.64948231666667
+  },
+  "Al Zahrah Dist.": {
+    "latitude": 24.578067383333334,
+    "longitude": 46.64871844999999
+  },
+  "Ar Rabie Dist.": {
+    "latitude": 24.7940876,
+    "longitude": 46.660759266666666
+  },
+  "Ar Rabwah Dist.": {
+    "latitude": 24.690639449999995,
+    "longitude": 46.76134925
+  },
+  "Ar Rahmaniyah Dist.": {
+    "latitude": 24.719034866666664,
+    "longitude": 46.661501550000004
+  },
+  "Assafarat Dist.": {
+    "latitude": 24.679786399999998,
+    "longitude": 46.6236419
+  },
+  "Badr Dist.": {
+    "latitude": 24.543292933333333,
+    "longitude": 46.710208200000004
+  },
+  "Banban Dist.": {
+    "latitude": 24.9898582,
+    "longitude": 46.5247426
+  },
+  "Dhahrat Al Badeah Dist.": {
+    "latitude": 24.598278883333332,
+    "longitude": 46.64598181666667
+  },
+  "Dhahrat Laban Dist.": {
+    "latitude": 24.633938633333333,
+    "longitude": 46.55287725
+  },
+  "East Dhahrat Al Oudah Dist.": {
+    "latitude": 24.75111291666667,
+    "longitude": 46.539560349999995
+  },
+  "East Naseem Dist.": {
+    "latitude": 24.740651016666664,
+    "longitude": 46.83989271666667
+  },
+  "Ghirnatah Dist.": {
+    "latitude": 24.797861983333334,
+    "longitude": 46.750488383333334
+  },
+  "Ghobairah Dist.": {
+    "latitude": 24.622292166666668,
+    "longitude": 46.73561423333333
+  },
+  "Hiteen Dist.": {
+    "latitude": 24.766389750000002,
+    "longitude": 46.59857626666667
+  },
+  "Imam Muhammed Bin Saud Islamic University": {
+    "latitude": 24.811807775,
+    "longitude": 46.701459225
+  },
+  "Irqah": {
+    "latitude": 24.690733933333334,
+    "longitude": 46.593705566666664
+  },
+  "Ishbiliyah Dist.": {
+    "latitude": 24.794740433333335,
+    "longitude": 46.7879605
+  },
+  "Jareer Dist.": {
+    "latitude": 24.67813286666667,
+    "longitude": 46.749488299999996
+  },
+  "King Abdulaziz Dist.": {
+    "latitude": 24.696037850000003,
+    "longitude": 46.727723225000005
+  },
+  "King Abdullah Dist.": {
+    "latitude": 24.74451236666667,
+    "longitude": 46.7331558
+  },
+  "King Fahd Dist.": {
+    "latitude": 24.741948499999996,
+    "longitude": 46.67015476666666
+  },
+  "King Faisal Dist.": {
+    "latitude": 24.766922599999997,
+    "longitude": 46.77626703333332
+  },
+  "King Saud University": {
+    "latitude": 24.727623199999996,
+    "longitude": 46.630207775
+  },
+  "Laban Dist.": {
+    "latitude": 24.633165050000002,
+    "longitude": 46.59819758333333
+  },
+  "Manfuha Al Jadidah Dist.": {
+    "latitude": 24.615099599999997,
+    "longitude": 46.720850399999996
+  },
+  "Manfuhah Dist.": {
+    "latitude": 24.598606900000004,
+    "longitude": 46.72614883333333
+  },
+  "Middle Oraija Dist.": {
+    "latitude": 24.607083716666665,
+    "longitude": 46.63361656666667
+  },
+  "Namar Dist.": {
+    "latitude": 24.5744133,
+    "longitude": 46.687317799999995
+  },
+  "North Mathar Dist.": {
+    "latitude": 24.685921949999997,
+    "longitude": 46.67143046666666
+  },
+  "Okaz Dist.": {
+    "latitude": 24.525114900000002,
+    "longitude": 46.66305739999999
+  },
+  "Olaishah Dist.": {
+    "latitude": 24.630094800000002,
+    "longitude": 46.6900948
+  },
+  "Outside Riyadh": {
+    "latitude": 24.856610333333332,
+    "longitude": 46.71517838333333
+  },
+  "Qurtubah Dist.": {
+    "latitude": 24.81852593333333,
+    "longitude": 46.73715638333332
+  },
+  "Salahuddin Dist.": {
+    "latitude": 24.7333061,
+    "longitude": 46.695581024999996
+  },
+  "Shubra Dist.": {
+    "latitude": 24.575292466666667,
+    "longitude": 46.669323283333334
+  },
+  "Taybah Dist.": {
+    "latitude": 24.5607457,
+    "longitude": 46.84063945
+  },
+  "Tuwaiq Dist.": {
+    "latitude": 24.5672338,
+    "longitude": 46.55030495
+  },
+  "West Naseem Dist.": {
+    "latitude": 24.725712333333334,
+    "longitude": 46.82519268333332
+  },
+  "West Oraija Dist.": {
+    "latitude": 24.59057795,
+    "longitude": 46.60225386666667
+  },
+  "West Suwaidi Dist.": {
+    "latitude": 24.574104483333333,
+    "longitude": 46.62596958333334
+  },
+  "West Umm Al Hamam Dist.": {
+    "latitude": 24.690010349999998,
+    "longitude": 46.64641458333333
+  },
+  "2nd Industrial City": {
+    "latitude": 24.5579922,
+    "longitude": 46.87227995
+  },
+  "Al Asemah Dist.": {
+    "latitude": 24.752868050000004,
+    "longitude": 46.57338885
+  },
+  "Al Badiah Dist.": {
+    "latitude": 24.6204505,
+    "longitude": 46.68713659999999
+  },
+  "Al Butaiha Dist.": {
+    "latitude": 24.6223085,
+    "longitude": 46.72043264999999
+  },
+  "Al Dahou Dist.": {
+    "latitude": 24.63093929999999,
+    "longitude": 46.7152627
+  },
+  "Al Difaa Dist.": {
+    "latitude": 24.5781638,
+    "longitude": 46.8295827
+  },
+  "Al Diriyah Dist.": {
+    "latitude": 24.734693,
+    "longitude": 46.57928085
+  },
+  "Al Fakhiriyah Dist.": {
+    "latitude": 24.6341191,
+    "longitude": 46.6756932
+  },
+  "Al Futah Dist.": {
+    "latitude": 24.6398939,
+    "longitude": 46.711908699999995
+  },
+  "Al Ghannamiyah Dist.": {
+    "latitude": 24.47127525,
+    "longitude": 46.806868099999996
+  },
+  "Al Iskan Dist.": {
+    "latitude": 24.568860125,
+    "longitude": 46.8377464
+  },
+  "Al Jarradiyah Dist.": {
+    "latitude": 24.6175773,
+    "longitude": 46.69517929999999
+  },
+  "Al Khuzama Dist.": {
+    "latitude": 24.719466099999998,
+    "longitude": 46.59999094999999
+  },
+  "Al Marqab Dist.": {
+    "latitude": 24.635906475,
+    "longitude": 46.721075975
+  },
+  "Al Misfat Dist.": {
+    "latitude": 24.5171685,
+    "longitude": 46.902832399999994
+  },
+  "Al Mishael Dist.": {
+    "latitude": 24.6124573,
+    "longitude": 46.86094805
+  },
+  "Al Mutamarat Dist.": {
+    "latitude": 24.6664447,
+    "longitude": 46.68330329999999
+  },
+  "Al Nasiriyah Dist.": {
+    "latitude": 24.65194055,
+    "longitude": 46.672347200000004
+  },
+  "Al Noor Dist.": {
+    "latitude": 24.6279109,
+    "longitude": 46.815064250000006
+  },
+  "Al Oud Dist.": {
+    "latitude": 24.629287849999997,
+    "longitude": 46.72595054999999
+  },
+  "Al Rimayah Dist.": {
+    "latitude": 24.754973,
+    "longitude": 46.8584915
+  },
+  "Al Salmaniyah Dist.": {
+    "latitude": 24.78519,
+    "longitude": 46.566989
+  },
+  "Al Shumaisi Dist.": {
+    "latitude": 24.6261091,
+    "longitude": 46.696474225
+  },
+  "Al Sinaiyah Dist.": {
+    "latitude": 24.637664750000006,
+    "longitude": 46.74481985
+  },
+  "Al Uraija Dist.": {
+    "latitude": 24.6269517,
+    "longitude": 46.6620955
+  },
+  "Al Wizarat Dist.": {
+    "latitude": 24.674552925,
+    "longitude": 46.711626775
+  },
+  "Al Wusayta Dist.": {
+    "latitude": 24.6234307,
+    "longitude": 46.716349300000005
+  },
+  "Al Yamamah Dist.": {
+    "latitude": 24.60090855,
+    "longitude": 46.71479185000001
+  },
+  "Al Zahra Dist.": {
+    "latitude": 24.68524575,
+    "longitude": 46.731795149999996
+  },
+  "Ar Rafiah Dist.": {
+    "latitude": 24.637102050000003,
+    "longitude": 46.672569425000006
+  },
+  "As Salhiyah Dist.": {
+    "latitude": 24.633467675,
+    "longitude": 46.735212925
+  },
+  "Dahiyat Namar Dist.": {
+    "latitude": 24.4916906,
+    "longitude": 46.52497580000001
+  },
+  "Dirab Dist.": {
+    "latitude": 24.501896175,
+    "longitude": 46.62961125
+  },
+  "East Umm Al Hamam Dist.": {
+    "latitude": 24.688048575,
+    "longitude": 46.654842125
+  },
+  "Jabrah Dist.": {
+    "latitude": 24.6238637,
+    "longitude": 46.719005349999996
+  },
+  "Khashm Al An": {
+    "latitude": 24.707648,
+    "longitude": 46.868900749999995
+  },
+  "Mansuriyah Dist.": {
+    "latitude": 24.54308785,
+    "longitude": 46.79655187499999
+  },
+  "Ohod Dist.": {
+    "latitude": 24.4910704,
+    "longitude": 46.6379005
+  },
+  "Oraid Dist.": {
+    "latitude": 24.4904865,
+    "longitude": 46.75674549999999
+  },
+  "Salam Park": {
+    "latitude": 24.6200862,
+    "longitude": 46.7095332
+  },
+  "Siyah Dist.": {
+    "latitude": 24.6048957,
+    "longitude": 46.7040771
+  },
+  "Skirinah Dist.": {
+    "latitude": 24.61616,
+    "longitude": 46.7201791
+  },
+  "Sultanah Dist.": {
+    "latitude": 24.603843599999998,
+    "longitude": 46.68864507499999
+  },
+  "Thulaim Dist.": {
+    "latitude": 24.639869199999996,
+    "longitude": 46.7249767
+  },
+  "Umm Saleem Dist.": {
+    "latitude": 24.6314233,
+    "longitude": 46.6982174
+  },
+  "Utayqah Dist.": {
+    "latitude": 24.601971075,
+    "longitude": 46.709437525
+  },
+  "Wady Laban Dist.": {
+    "latitude": 24.6065909,
+    "longitude": 46.5460927
+  },
+  "West Dhahrat Al Oudah Dist.": {
+    "latitude": 24.7457114,
+    "longitude": 46.5165127
+  }
+}

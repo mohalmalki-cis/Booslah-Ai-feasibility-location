@@ -1,0 +1,4 @@
+
+Oops; flutter has exited unexpectedly: "_createDevFS: (1001) File system already exists
+_createDevFS: file system 'boosla_app-osama-final-version' already exists".
+A crash report has been written to C:\Users\PC\Desktop\boosla_app-osama-final-version\boosla_app-osama-final-version\flutter_01.log

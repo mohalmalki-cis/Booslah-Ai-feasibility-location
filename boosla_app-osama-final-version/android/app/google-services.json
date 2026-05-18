@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714187758974",
+    "project_id": "boosla-app-e68c2",
+    "storage_bucket": "boosla-app-e68c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714187758974:android:9e2f75be88eb6469ea672f",
+        "android_client_info": {
+          "package_name": "com.example.boosla_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBni4zErXrTvV4o1kpnowJ5veHmxrNDWdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1835 @@
+{
+  "business_type": "grocery",
+  "model_version": "1.2.0",
+  "target_level": "zone",
+  "categorical_cols": [
+    "budget",
+    "shop_space",
+    "target_people",
+    "nearby_landmark",
+    "depends_on_delivery_orders",
+    "opening_hours",
+    "24_hours",
+    "dine_in",
+    "drive_thru",
+    "outdoor_table"
+  ],
+  "numerical_cols": [
+    "shop_age"
+  ],
+  "categorical_mappings": {
+    "budget": {
+      "High": 0,
+      "Low": 1,
+      "Medium": 2
+    },
+    "shop_space": {
+      "Large": 0,
+      "Medium": 1,
+      "Small": 2
+    },
+    "target_people": {
+      "Employees": 0,
+      "Families": 1,
+      "Mixed": 2,
+      "Students": 3,
+      "Youth": 4
+    },
+    "nearby_landmark": {
+      "Hospital": 0,
+      "Inside Neighborhood": 1,
+      "Main Road": 2,
+      "Mall": 3,
+      "Mosque": 4,
+      "School": 5
+    },
+    "depends_on_delivery_orders": {
+      "High": 0,
+      "Low": 1,
+      "Medium": 2
+    },
+    "opening_hours": {
+      "Both": 0,
+      "Evening": 1,
+      "Morning": 2
+    },
+    "24_hours": {
+      "0": 0,
+      "1": 1
+    },
+    "dine_in": {
+      "0": 0,
+      "1": 1
+    },
+    "drive_thru": {
+      "0": 0,
+      "1": 1
+    },
+    "outdoor_table": {
+      "0": 0,
+      "1": 1
+    }
+  },
+  "numerical_mean": [
+    10.461960246744345
+  ],
+  "numerical_scale": [
+    5.69318573441157
+  ],
+  "district_classes": [
+    "2nd Industrial City",
+    "Al Amal Dist.",
+    "Al Andalus Dist.",
+    "Al Aqeeq Dist.",
+    "Al Arid Dist.",
+    "Al Asemah Dist.",
+    "Al Awaly Dist.",
+    "Al Aziziyah Dist.",
+    "Al Badiah Dist.",
+    "Al Bayan Dist.",
+    "Al Dar Al Baida Dist.",
+    "Al Dhubbat Dist.",
+    "Al Dirah Dist.",
+    "Al Ezdihar Dist.",
+    "Al Faisaliyah Dist.",
+    "Al Falah Dist.",
+    "Al Farooq Dist.",
+    "Al Fayha Dist.",
+    "Al Futah Dist.",
+    "Al Ghadeer Dist.",
+    "Al Hada Dist.",
+    "Al Hamra Dist.",
+    "Al Hazm Dist.",
+    "Al Iskan Dist.",
+    "Al Janadriyah Dist.",
+    "Al Jarradiyah Dist.",
+    "Al Jazeerah Dist.",
+    "Al Khaleej Dist.",
+    "Al Khalidiyah Dist.",
+    "Al Mahdiyah Dist.",
+    "Al Maizalah Dist.",
+    "Al Malaz Dist.",
+    "Al Malqa Dist.",
+    "Al Manakh Dist.",
+    "Al Manar Dist.",
+    "Al Mansurah Dist.",
+    "Al Marqab Dist.",
+    "Al Marwah Dist.",
+    "Al Masani Dist.",
+    "Al Maseef Dist.",
+    "Al Mathar Dist.",
+    "Al Mishael Dist.",
+    "Al Mughrazat Dist.",
+    "Al Muhammadiyah Dist.",
+    "Al Munisiyah Dist.",
+    "Al Murabba Dist.",
+    "Al Mursalat Dist.",
+    "Al Muruj Dist.",
+    "Al Nada Dist.",
+    "Al Nadheem Dist.",
+    "Al Nadwah Dist.",
+    "Al Nafel Dist.",
+    "Al Nahdah Dist.",
+    "Al Nakheel Dist.",
+    "Al Narjis Dist.",
+    "Al Nasiriyah Dist.",
+    "Al Noor Dist.",
+    "Al Nuzha Dist.",
+    "Al Olaya Dist.",
+    "Al Oud Dist.",
+    "Al Qadisiyah Dist.",
+    "Al Qairawan Dist.",
+    "Al Quds Dist.",
+    "Al Raed Dist.",
+    "Al Rawabi Dist.",
+    "Al Rawdah Dist.",
+    "Al Rayan Dist.",
+    "Al Rimal Dist.",
+    "Al Rimayah Dist.",
+    "Al Saadah Dist.",
+    "Al Safa Dist.",
+    "Al Sahafah Dist.",
+    "Al Salam Dist.",
+    "Al Sharafiyah Dist.",
+    "Al Shifa Dist.",
+    "Al Shohda Dist.",
+    "Al Shumaisi Dist.",
+    "Al Sinaiyah Dist.",
+    "Al Sulaimaniyah Dist.",
+    "Al Sulay Dist.",
+    "Al Suwaidi Dist.",
+    "Al Taawun Dist.",
+    "Al Uraija Dist.",
+    "Al Wadi Dist.",
+    "Al Wahah Dist.",
+    "Al Wisham Dist.",
+    "Al Wizarat Dist.",
+    "Al Woroud Dist.",
+    "Al Yamamah Dist.",
+    "Al Yarmuk Dist.",
+    "Al Yasmeen Dist.",
+    "Al Zahra Dist.",
+    "Al Zahrah Dist.",
+    "Ar Rabie Dist.",
+    "Ar Rabwah Dist.",
+    "Ar Rafiah Dist.",
+    "Ar Rahmaniyah Dist.",
+    "As Salhiyah Dist.",
+    "Assafarat Dist.",
+    "Badr Dist.",
+    "Dhahrat Al Badeah Dist.",
+    "Dhahrat Laban Dist.",
+    "Dirab Dist.",
+    "East Dhahrat Al Oudah Dist.",
+    "East Naseem Dist.",
+    "East Umm Al Hamam Dist.",
+    "Ghirnatah Dist.",
+    "Ghobairah Dist.",
+    "Hiteen Dist.",
+    "Irqah",
+    "Ishbiliyah Dist.",
+    "Jabrah Dist.",
+    "Jareer Dist.",
+    "Khashm Al An",
+    "King Abdullah Dist.",
+    "King Fahd Dist.",
+    "King Faisal Dist.",
+    "King Saud University",
+    "Laban Dist.",
+    "Manfuha Al Jadidah Dist.",
+    "Manfuhah Dist.",
+    "Mansuriyah Dist.",
+    "Middle Oraija Dist.",
+    "Namar Dist.",
+    "North Mathar Dist.",
+    "Okaz Dist.",
+    "Olaishah Dist.",
+    "Outside Riyadh",
+    "Qurtubah Dist.",
+    "Salahuddin Dist.",
+    "Shubra Dist.",
+    "Skirinah Dist.",
+    "Sultanah Dist.",
+    "Taybah Dist.",
+    "Thulaim Dist.",
+    "Tuwaiq Dist.",
+    "Umm Saleem Dist.",
+    "Utayqah Dist.",
+    "West Naseem Dist.",
+    "West Oraija Dist.",
+    "West Suwaidi Dist.",
+    "West Umm Al Hamam Dist."
+  ],
+  "district_coords": {
+    "2nd Industrial City": {
+      "latitude": 24.561324,
+      "longitude": 46.8710496
+    },
+    "Al Amal Dist.": {
+      "latitude": 24.644438899999997,
+      "longitude": 46.718511449999994
+    },
+    "Al Andalus Dist.": {
+      "latitude": 24.7458016,
+      "longitude": 46.787484750000004
+    },
+    "Al Aqeeq Dist.": {
+      "latitude": 24.7767804,
+      "longitude": 46.6276067
+    },
+    "Al Arid Dist.": {
+      "latitude": 24.8761099,
+      "longitude": 46.6184952
+    },
+    "Al Asemah Dist.": {
+      "latitude": 24.7531523,
+      "longitude": 46.57306249999999
+    },
+    "Al Awaly Dist.": {
+      "latitude": 24.556316,
+      "longitude": 46.60100910000001
+    },
+    "Al Aziziyah Dist.": {
+      "latitude": 24.5859618,
+      "longitude": 46.769127
+    },
+    "Al Badiah Dist.": {
+      "latitude": 24.61727205,
+      "longitude": 46.68766099999999
+    },
+    "Al Bayan Dist.": {
+      "latitude": 24.8842144,
+      "longitude": 46.86639185
+    },
+    "Al Dar Al Baida Dist.": {
+      "latitude": 24.564929550000002,
+      "longitude": 46.786734949999996
+    },
+    "Al Dhubbat Dist.": {
+      "latitude": 24.67921875,
+      "longitude": 46.7217111
+    },
+    "Al Dirah Dist.": {
+      "latitude": 24.6333239,
+      "longitude": 46.70987785
+    },
+    "Al Ezdihar Dist.": {
+      "latitude": 24.7776522,
+      "longitude": 46.7140891
+    },
+    "Al Faisaliyah Dist.": {
+      "latitude": 24.6380796,
+      "longitude": 46.768637
+    },
+    "Al Falah Dist.": {
+      "latitude": 24.796887549999994,
+      "longitude": 46.70260054999999
+    },
+    "Al Farooq Dist.": {
+      "latitude": 24.6496677,
+      "longitude": 46.7780081
+    },
+    "Al Fayha Dist.": {
+      "latitude": 24.679957,
+      "longitude": 46.81238319999999
+    },
+    "Al Futah Dist.": {
+      "latitude": 24.639786,
+      "longitude": 46.7102047
+    },
+    "Al Ghadeer Dist.": {
+      "latitude": 24.7719619,
+      "longitude": 46.65257349999999
+    },
+    "Al Hada Dist.": {
+      "latitude": 24.6664392,
+      "longitude": 46.625989
+    },
+    "Al Hamra Dist.": {
+      "latitude": 24.7793048,
+      "longitude": 46.76240469999999
+    },
+    "Al Hazm Dist.": {
+      "latitude": 24.5370585,
+      "longitude": 46.64831170000001
+    },
+    "Al Iskan Dist.": {
+      "latitude": 24.5686305,
+      "longitude": 46.83804840000001
+    },
+    "Al Janadriyah Dist.": {
+      "latitude": 24.808408,
+      "longitude": 46.8629174
+    },
+    "Al Jarradiyah Dist.": {
+      "latitude": 24.6157699,
+      "longitude": 46.696852500000006
+    },
+    "Al Jazeerah Dist.": {
+      "latitude": 24.65789985,
+      "longitude": 46.794257650000006
+    },
+    "Al Khaleej Dist.": {
+      "latitude": 24.7759292,
+      "longitude": 46.79918319999999
+    },
+    "Al Khalidiyah Dist.": {
+      "latitude": 24.62905825,
+      "longitude": 46.7537984
+    },
+    "Al Mahdiyah Dist.": {
+      "latitude": 24.6704071,
+      "longitude": 46.5552907
+    },
+    "Al Maizalah Dist.": {
+      "latitude": 24.7975812,
+      "longitude": 46.8465879
+    },
+    "Al Malaz Dist.": {
+      "latitude": 24.66216,
+      "longitude": 46.73277599999999
+    },
+    "Al Malqa Dist.": {
+      "latitude": 24.802848150000003,
+      "longitude": 46.6107827
+    },
+    "Al Manakh Dist.": {
+      "latitude": 24.62268725,
+      "longitude": 46.7978272
+    },
+    "Al Manar Dist.": {
+      "latitude": 24.7249003,
+      "longitude": 46.797104250000004
+    },
+    "Al Mansurah Dist.": {
+      "latitude": 24.6112121,
+      "longitude": 46.7458417
+    },
+    "Al Marqab Dist.": {
+      "latitude": 24.6351766,
+      "longitude": 46.7211841
+    },
+    "Al Marwah Dist.": {
+      "latitude": 24.546032199999996,
+      "longitude": 46.67464705
+    },
+    "Al Masani Dist.": {
+      "latitude": 24.5663073,
+      "longitude": 46.7455511
+    },
+    "Al Maseef Dist.": {
+      "latitude": 24.7618793,
+      "longitude": 46.685919
+    },
+    "Al Mathar Dist.": {
+      "latitude": 24.6727752,
+      "longitude": 46.6660373
+    },
+    "Al Mishael Dist.": {
+      "latitude": 24.6112747,
+      "longitude": 46.8631811
+    },
+    "Al Mughrazat Dist.": {
+      "latitude": 24.76204955,
+      "longitude": 46.72158005
+    },
+    "Al Muhammadiyah Dist.": {
+      "latitude": 24.7357366,
+      "longitude": 46.6464264
+    },
+    "Al Munisiyah Dist.": {
+      "latitude": 24.8253242,
+      "longitude": 46.7707833
+    },
+    "Al Murabba Dist.": {
+      "latitude": 24.6637609,
+      "longitude": 46.706186
+    },
+    "Al Mursalat Dist.": {
+      "latitude": 24.755255400000003,
+      "longitude": 46.68552565
+    },
+    "Al Muruj Dist.": {
+      "latitude": 24.756332300000004,
+      "longitude": 46.66337695
+    },
+    "Al Nada Dist.": {
+      "latitude": 24.81514005,
+      "longitude": 46.684621199999995
+    },
+    "Al Nadheem Dist.": {
+      "latitude": 24.80870225,
+      "longitude": 46.8782628
+    },
+    "Al Nadwah Dist.": {
+      "latitude": 24.794623499999993,
+      "longitude": 46.87049705
+    },
+    "Al Nafel Dist.": {
+      "latitude": 24.782110199999995,
+      "longitude": 46.67827605000001
+    },
+    "Al Nahdah Dist.": {
+      "latitude": 24.76079285,
+      "longitude": 46.8164391
+    },
+    "Al Nakheel Dist.": {
+      "latitude": 24.7416875,
+      "longitude": 46.61548560000001
+    },
+    "Al Narjis Dist.": {
+      "latitude": 24.852402850000004,
+      "longitude": 46.672709
+    },
+    "Al Nasiriyah Dist.": {
+      "latitude": 24.6523233,
+      "longitude": 46.6729023
+    },
+    "Al Noor Dist.": {
+      "latitude": 24.6228561,
+      "longitude": 46.8154475
+    },
+    "Al Nuzha Dist.": {
+      "latitude": 24.75753305,
+      "longitude": 46.7070893
+    },
+    "Al Olaya Dist.": {
+      "latitude": 24.68675515,
+      "longitude": 46.685730799999995
+    },
+    "Al Oud Dist.": {
+      "latitude": 24.62943,
+      "longitude": 46.72464859999999
+    },
+    "Al Qadisiyah Dist.": {
+      "latitude": 24.81896,
+      "longitude": 46.8130643
+    },
+    "Al Qairawan Dist.": {
+      "latitude": 24.82951615,
+      "longitude": 46.5935887
+    },
+    "Al Quds Dist.": {
+      "latitude": 24.7564437,
+      "longitude": 46.755883
+    },
+    "Al Raed Dist.": {
+      "latitude": 24.7136019,
+      "longitude": 46.6348903
+    },
+    "Al Rawabi Dist.": {
+      "latitude": 24.69440845,
+      "longitude": 46.78479895
+    },
+    "Al Rawdah Dist.": {
+      "latitude": 24.7340358,
+      "longitude": 46.767384199999995
+    },
+    "Al Rayan Dist.": {
+      "latitude": 24.7089135,
+      "longitude": 46.78008774999999
+    },
+    "Al Rimal Dist.": {
+      "latitude": 24.8492893,
+      "longitude": 46.8100863
+    },
+    "Al Rimayah Dist.": {
+      "latitude": 24.753882249999997,
+      "longitude": 46.863919749999994
+    },
+    "Al Saadah Dist.": {
+      "latitude": 24.697387749999997,
+      "longitude": 46.84298584999999
+    },
+    "Al Safa Dist.": {
+      "latitude": 24.668363550000002,
+      "longitude": 46.76621545
+    },
+    "Al Sahafah Dist.": {
+      "latitude": 24.800315949999998,
+      "longitude": 46.641543799999994
+    },
+    "Al Salam Dist.": {
+      "latitude": 24.7051767,
+      "longitude": 46.8080444
+    },
+    "Al Sharafiyah Dist.": {
+      "latitude": 24.65476305,
+      "longitude": 46.671318649999996
+    },
+    "Al Shifa Dist.": {
+      "latitude": 24.5661824,
+      "longitude": 46.7004932
+    },
+    "Al Shohda Dist.": {
+      "latitude": 24.7872623,
+      "longitude": 46.7357281
+    },
+    "Al Shumaisi Dist.": {
+      "latitude": 24.6244976,
+      "longitude": 46.6950156
+    },
+    "Al Sinaiyah Dist.": {
+      "latitude": 24.638058,
+      "longitude": 46.7477102
+    },
+    "Al Sulaimaniyah Dist.": {
+      "latitude": 24.7012533,
+      "longitude": 46.7017311
+    },
+    "Al Sulay Dist.": {
+      "latitude": 24.6579911,
+      "longitude": 46.8395284
+    },
+    "Al Suwaidi Dist.": {
+      "latitude": 24.5927026,
+      "longitude": 46.6717412
+    },
+    "Al Taawun Dist.": {
+      "latitude": 24.774846,
+      "longitude": 46.7071471
+    },
+    "Al Uraija Dist.": {
+      "latitude": 24.6263229,
+      "longitude": 46.6633575
+    },
+    "Al Wadi Dist.": {
+      "latitude": 24.7895668,
+      "longitude": 46.6920626
+    },
+    "Al Wahah Dist.": {
+      "latitude": 24.7433364,
+      "longitude": 46.708542
+    },
+    "Al Wisham Dist.": {
+      "latitude": 24.6436794,
+      "longitude": 46.6962468
+    },
+    "Al Wizarat Dist.": {
+      "latitude": 24.67505835,
+      "longitude": 46.71152345
+    },
+    "Al Woroud Dist.": {
+      "latitude": 24.7135517,
+      "longitude": 46.6752957
+    },
+    "Al Yamamah Dist.": {
+      "latitude": 24.6022861,
+      "longitude": 46.71498700000001
+    },
+    "Al Yarmuk Dist.": {
+      "latitude": 24.8078798,
+      "longitude": 46.7799527
+    },
+    "Al Yasmeen Dist.": {
+      "latitude": 24.822992900000003,
+      "longitude": 46.651286049999996
+    },
+    "Al Zahra Dist.": {
+      "latitude": 24.6846952,
+      "longitude": 46.730720399999996
+    },
+    "Al Zahrah Dist.": {
+      "latitude": 24.574723350000006,
+      "longitude": 46.64749024999999
+    },
+    "Ar Rabie Dist.": {
+      "latitude": 24.7993125,
+      "longitude": 46.66713120000001
+    },
+    "Ar Rabwah Dist.": {
+      "latitude": 24.6901699,
+      "longitude": 46.7587547
+    },
+    "Ar Rafiah Dist.": {
+      "latitude": 24.6385088,
+      "longitude": 46.67199585
+    },
+    "Ar Rahmaniyah Dist.": {
+      "latitude": 24.7193075,
+      "longitude": 46.66199345
+    },
+    "As Salhiyah Dist.": {
+      "latitude": 24.633562949999998,
+      "longitude": 46.734820549999995
+    },
+    "Assafarat Dist.": {
+      "latitude": 24.6849444,
+      "longitude": 46.6244922
+    },
+    "Badr Dist.": {
+      "latitude": 24.5422276,
+      "longitude": 46.70970225
+    },
+    "Dhahrat Al Badeah Dist.": {
+      "latitude": 24.5959489,
+      "longitude": 46.64339640000001
+    },
+    "Dhahrat Laban Dist.": {
+      "latitude": 24.635776,
+      "longitude": 46.5538448
+    },
+    "Dirab Dist.": {
+      "latitude": 24.504989899999998,
+      "longitude": 46.6306622
+    },
+    "East Dhahrat Al Oudah Dist.": {
+      "latitude": 24.749767650000003,
+      "longitude": 46.5377531
+    },
+    "East Naseem Dist.": {
+      "latitude": 24.7376911,
+      "longitude": 46.84080470000001
+    },
+    "East Umm Al Hamam Dist.": {
+      "latitude": 24.686351599999995,
+      "longitude": 46.65700745000001
+    },
+    "Ghirnatah Dist.": {
+      "latitude": 24.7993369,
+      "longitude": 46.7527274
+    },
+    "Ghobairah Dist.": {
+      "latitude": 24.6193779,
+      "longitude": 46.7353038
+    },
+    "Hiteen Dist.": {
+      "latitude": 24.7646383,
+      "longitude": 46.58535195
+    },
+    "Irqah": {
+      "latitude": 24.6899851,
+      "longitude": 46.5952706
+    },
+    "Ishbiliyah Dist.": {
+      "latitude": 24.7947159,
+      "longitude": 46.78804299999999
+    },
+    "Jabrah Dist.": {
+      "latitude": 24.6240814,
+      "longitude": 46.7210372
+    },
+    "Jareer Dist.": {
+      "latitude": 24.6764607,
+      "longitude": 46.7486427
+    },
+    "Khashm Al An": {
+      "latitude": 24.6979988,
+      "longitude": 46.8616161
+    },
+    "King Abdullah Dist.": {
+      "latitude": 24.7333112,
+      "longitude": 46.747476
+    },
+    "King Fahd Dist.": {
+      "latitude": 24.73989805,
+      "longitude": 46.670391599999995
+    },
+    "King Faisal Dist.": {
+      "latitude": 24.7643292,
+      "longitude": 46.77646949999999
+    },
+    "King Saud University": {
+      "latitude": 24.722705199999993,
+      "longitude": 46.629913650000006
+    },
+    "Laban Dist.": {
+      "latitude": 24.633277550000003,
+      "longitude": 46.596637349999995
+    },
+    "Manfuha Al Jadidah Dist.": {
+      "latitude": 24.6153961,
+      "longitude": 46.71963609999999
+    },
+    "Manfuhah Dist.": {
+      "latitude": 24.60073850000001,
+      "longitude": 46.725598149999996
+    },
+    "Mansuriyah Dist.": {
+      "latitude": 24.5448478,
+      "longitude": 46.79723994999999
+    },
+    "Middle Oraija Dist.": {
+      "latitude": 24.609184300000003,
+      "longitude": 46.63031265
+    },
+    "Namar Dist.": {
+      "latitude": 24.5753804,
+      "longitude": 46.69334019999999
+    },
+    "North Mathar Dist.": {
+      "latitude": 24.684485199999997,
+      "longitude": 46.6743568
+    },
+    "Okaz Dist.": {
+      "latitude": 24.5257505,
+      "longitude": 46.6614319
+    },
+    "Olaishah Dist.": {
+      "latitude": 24.63171775,
+      "longitude": 46.690038400000006
+    },
+    "Outside Riyadh": {
+      "latitude": 24.8572608,
+      "longitude": 46.72237245
+    },
+    "Qurtubah Dist.": {
+      "latitude": 24.817751649999998,
+      "longitude": 46.739270299999994
+    },
+    "Salahuddin Dist.": {
+      "latitude": 24.731179499999996,
+      "longitude": 46.689760899999996
+    },
+    "Shubra Dist.": {
+      "latitude": 24.5775877,
+      "longitude": 46.67634169999999
+    },
+    "Skirinah Dist.": {
+      "latitude": 24.616584949999996,
+      "longitude": 46.71866625
+    },
+    "Sultanah Dist.": {
+      "latitude": 24.605313899999995,
+      "longitude": 46.68916909999999
+    },
+    "Taybah Dist.": {
+      "latitude": 24.5597055,
+      "longitude": 46.83084660000001
+    },
+    "Thulaim Dist.": {
+      "latitude": 24.64007029999999,
+      "longitude": 46.7260928
+    },
+    "Tuwaiq Dist.": {
+      "latitude": 24.573312,
+      "longitude": 46.5548331
+    },
+    "Umm Saleem Dist.": {
+      "latitude": 24.6367784,
+      "longitude": 46.6956995
+    },
+    "Utayqah Dist.": {
+      "latitude": 24.60160895,
+      "longitude": 46.70849025
+    },
+    "West Naseem Dist.": {
+      "latitude": 24.7256472,
+      "longitude": 46.82689939999999
+    },
+    "West Oraija Dist.": {
+      "latitude": 24.589862,
+      "longitude": 46.60439820000001
+    },
+    "West Suwaidi Dist.": {
+      "latitude": 24.57864395,
+      "longitude": 46.62500865
+    },
+    "West Umm Al Hamam Dist.": {
+      "latitude": 24.68810845,
+      "longitude": 46.64518685
+    }
+  },
+  "zone_classes": [
+    "Al Sulaimaniyah Dist. Area",
+    "Al Maseef Dist. Area",
+    "Al Rimal Dist. Area",
+    "West Naseem Dist. Area",
+    "Sultanah Dist. Area",
+    "East Dhahrat Al Oudah Dist. Area",
+    "Al Mishael Dist. Area",
+    "Al Arid Dist. Area",
+    "Dhahrat Laban Dist. Area",
+    "Badr Dist. Area",
+    "Al Khaleej Dist. Area",
+    "Tuwaiq Dist. Area",
+    "Al Manakh Dist. Area",
+    "Al Aziziyah Dist. Area",
+    "Al Janadriyah Dist. Area",
+    "Al Mansurah Dist. Area",
+    "Al Woroud Dist. Area",
+    "Al Rawdah Dist. Area",
+    "Al Olaya Dist. Area",
+    "Al Hazm Dist. Area"
+  ],
+  "zone_centers": [
+    {
+      "latitude": 24.677515314285714,
+      "longitude": 46.72189867857143
+    },
+    {
+      "latitude": 24.76829652083333,
+      "longitude": 46.702360033333335
+    },
+    {
+      "latitude": 24.825114664285714,
+      "longitude": 46.76975096428571
+    },
+    {
+      "latitude": 24.700264235714286,
+      "longitude": 46.833180292857136
+    },
+    {
+      "latitude": 24.62665118888889,
+      "longitude": 46.68733736111111
+    },
+    {
+      "latitude": 24.755852750000003,
+      "longitude": 46.56538918333333
+    },
+    {
+      "latitude": 24.575233675,
+      "longitude": 46.85078142500001
+    },
+    {
+      "latitude": 24.819490983333335,
+      "longitude": 46.64086272777778
+    },
+    {
+      "latitude": 24.663471558333335,
+      "longitude": 46.591920775
+    },
+    {
+      "latitude": 24.570816139999998,
+      "longitude": 46.690323709999994
+    },
+    {
+      "latitude": 24.77501439,
+      "longitude": 46.78850789999999
+    },
+    {
+      "latitude": 24.582570071428574,
+      "longitude": 46.61520690714286
+    },
+    {
+      "latitude": 24.643259008333334,
+      "longitude": 46.78673215
+    },
+    {
+      "latitude": 24.5655116125,
+      "longitude": 46.774663249999996
+    },
+    {
+      "latitude": 24.807901933333333,
+      "longitude": 46.864762791666664
+    },
+    {
+      "latitude": 24.624364170588237,
+      "longitude": 46.72567112352941
+    },
+    {
+      "latitude": 24.73497585,
+      "longitude": 46.65003857222222
+    },
+    {
+      "latitude": 24.72349805625,
+      "longitude": 46.7723717
+    },
+    {
+      "latitude": 24.67508027857143,
+      "longitude": 46.667505735714286
+    },
+    {
+      "latitude": 24.528457775,
+      "longitude": 46.6537632125
+    }
+  ],
+  "district_to_zone": {
+    "2nd Industrial City": 6,
+    "Al Amal Dist.": 15,
+    "Al Andalus Dist.": 17,
+    "Al Aqeeq Dist.": 7,
+    "Al Arid Dist.": 7,
+    "Al Asemah Dist.": 5,
+    "Al Awaly Dist.": 11,
+    "Al Aziziyah Dist.": 13,
+    "Al Badiah Dist.": 4,
+    "Al Bayan Dist.": 14,
+    "Al Dar Al Baida Dist.": 13,
+    "Al Dhubbat Dist.": 0,
+    "Al Dirah Dist.": 15,
+    "Al Ezdihar Dist.": 1,
+    "Al Faisaliyah Dist.": 12,
+    "Al Falah Dist.": 1,
+    "Al Farooq Dist.": 12,
+    "Al Fayha Dist.": 3,
+    "Al Futah Dist.": 15,
+    "Al Ghadeer Dist.": 16,
+    "Al Hada Dist.": 8,
+    "Al Hamra Dist.": 10,
+    "Al Hazm Dist.": 19,
+    "Al Iskan Dist.": 6,
+    "Al Janadriyah Dist.": 14,
+    "Al Jarradiyah Dist.": 4,
+    "Al Jazeerah Dist.": 12,
+    "Al Khaleej Dist.": 10,
+    "Al Khalidiyah Dist.": 15,
+    "Al Mahdiyah Dist.": 8,
+    "Al Maizalah Dist.": 14,
+    "Al Malaz Dist.": 0,
+    "Al Malqa Dist.": 7,
+    "Al Manakh Dist.": 12,
+    "Al Manar Dist.": 17,
+    "Al Mansurah Dist.": 15,
+    "Al Marqab Dist.": 15,
+    "Al Marwah Dist.": 19,
+    "Al Masani Dist.": 13,
+    "Al Maseef Dist.": 1,
+    "Al Mathar Dist.": 18,
+    "Al Mishael Dist.": 6,
+    "Al Mughrazat Dist.": 1,
+    "Al Muhammadiyah Dist.": 16,
+    "Al Munisiyah Dist.": 2,
+    "Al Murabba Dist.": 0,
+    "Al Mursalat Dist.": 1,
+    "Al Muruj Dist.": 16,
+    "Al Nada Dist.": 7,
+    "Al Nadheem Dist.": 14,
+    "Al Nadwah Dist.": 14,
+    "Al Nafel Dist.": 1,
+    "Al Nahdah Dist.": 10,
+    "Al Nakheel Dist.": 16,
+    "Al Narjis Dist.": 7,
+    "Al Nasiriyah Dist.": 18,
+    "Al Noor Dist.": 12,
+    "Al Nuzha Dist.": 1,
+    "Al Olaya Dist.": 18,
+    "Al Oud Dist.": 15,
+    "Al Qadisiyah Dist.": 2,
+    "Al Qairawan Dist.": 7,
+    "Al Quds Dist.": 17,
+    "Al Raed Dist.": 16,
+    "Al Rawabi Dist.": 17,
+    "Al Rawdah Dist.": 17,
+    "Al Rayan Dist.": 17,
+    "Al Rimal Dist.": 2,
+    "Al Rimayah Dist.": 14,
+    "Al Saadah Dist.": 3,
+    "Al Safa Dist.": 12,
+    "Al Sahafah Dist.": 7,
+    "Al Salam Dist.": 3,
+    "Al Sharafiyah Dist.": 18,
+    "Al Shifa Dist.": 9,
+    "Al Shohda Dist.": 1,
+    "Al Shumaisi Dist.": 4,
+    "Al Sinaiyah Dist.": 15,
+    "Al Sulaimaniyah Dist.": 0,
+    "Al Sulay Dist.": 3,
+    "Al Suwaidi Dist.": 9,
+    "Al Taawun Dist.": 1,
+    "Al Uraija Dist.": 4,
+    "Al Wadi Dist.": 1,
+    "Al Wahah Dist.": 1,
+    "Al Wisham Dist.": 4,
+    "Al Wizarat Dist.": 0,
+    "Al Woroud Dist.": 16,
+    "Al Yamamah Dist.": 15,
+    "Al Yarmuk Dist.": 2,
+    "Al Yasmeen Dist.": 7,
+    "Al Zahra Dist.": 0,
+    "Al Zahrah Dist.": 11,
+    "Ar Rabie Dist.": 7,
+    "Ar Rabwah Dist.": 17,
+    "Ar Rafiah Dist.": 4,
+    "Ar Rahmaniyah Dist.": 16,
+    "As Salhiyah Dist.": 15,
+    "Assafarat Dist.": 8,
+    "Badr Dist.": 9,
+    "Dhahrat Al Badeah Dist.": 11,
+    "Dhahrat Laban Dist.": 8,
+    "Dirab Dist.": 19,
+    "East Dhahrat Al Oudah Dist.": 5,
+    "East Naseem Dist.": 3,
+    "East Umm Al Hamam Dist.": 18,
+    "Ghirnatah Dist.": 2,
+    "Ghobairah Dist.": 15,
+    "Hiteen Dist.": 5,
+    "Irqah": 8,
+    "Ishbiliyah Dist.": 10,
+    "Jabrah Dist.": 15,
+    "Jareer Dist.": 0,
+    "Khashm Al An": 3,
+    "King Abdullah Dist.": 17,
+    "King Fahd Dist.": 16,
+    "King Faisal Dist.": 10,
+    "King Saud University": 16,
+    "Laban Dist.": 8,
+    "Manfuha Al Jadidah Dist.": 15,
+    "Manfuhah Dist.": 15,
+    "Mansuriyah Dist.": 13,
+    "Middle Oraija Dist.": 11,
+    "Namar Dist.": 9,
+    "North Mathar Dist.": 18,
+    "Okaz Dist.": 19,
+    "Olaishah Dist.": 4,
+    "Outside Riyadh": 2,
+    "Qurtubah Dist.": 2,
+    "Salahuddin Dist.": 1,
+    "Shubra Dist.": 9,
+    "Skirinah Dist.": 15,
+    "Sultanah Dist.": 4,
+    "Taybah Dist.": 6,
+    "Thulaim Dist.": 15,
+    "Tuwaiq Dist.": 11,
+    "Umm Saleem Dist.": 4,
+    "Utayqah Dist.": 15,
+    "West Naseem Dist.": 3,
+    "West Oraija Dist.": 11,
+    "West Suwaidi Dist.": 11,
+    "West Umm Al Hamam Dist.": 18
+  },
+  "zone_to_districts": {
+    "6": [
+      "2nd Industrial City",
+      "Al Iskan Dist.",
+      "Al Mishael Dist.",
+      "Taybah Dist."
+    ],
+    "15": [
+      "Al Amal Dist.",
+      "Al Dirah Dist.",
+      "Al Futah Dist.",
+      "Al Khalidiyah Dist.",
+      "Al Mansurah Dist.",
+      "Al Marqab Dist.",
+      "Al Oud Dist.",
+      "Al Sinaiyah Dist.",
+      "Al Yamamah Dist.",
+      "As Salhiyah Dist.",
+      "Ghobairah Dist.",
+      "Jabrah Dist.",
+      "Manfuha Al Jadidah Dist.",
+      "Manfuhah Dist.",
+      "Skirinah Dist.",
+      "Thulaim Dist.",
+      "Utayqah Dist."
+    ],
+    "17": [
+      "Al Andalus Dist.",
+      "Al Manar Dist.",
+      "Al Quds Dist.",
+      "Al Rawabi Dist.",
+      "Al Rawdah Dist.",
+      "Al Rayan Dist.",
+      "Ar Rabwah Dist.",
+      "King Abdullah Dist."
+    ],
+    "7": [
+      "Al Aqeeq Dist.",
+      "Al Arid Dist.",
+      "Al Malqa Dist.",
+      "Al Nada Dist.",
+      "Al Narjis Dist.",
+      "Al Qairawan Dist.",
+      "Al Sahafah Dist.",
+      "Al Yasmeen Dist.",
+      "Ar Rabie Dist."
+    ],
+    "5": [
+      "Al Asemah Dist.",
+      "East Dhahrat Al Oudah Dist.",
+      "Hiteen Dist."
+    ],
+    "11": [
+      "Al Awaly Dist.",
+      "Al Zahrah Dist.",
+      "Dhahrat Al Badeah Dist.",
+      "Middle Oraija Dist.",
+      "Tuwaiq Dist.",
+      "West Oraija Dist.",
+      "West Suwaidi Dist."
+    ],
+    "13": [
+      "Al Aziziyah Dist.",
+      "Al Dar Al Baida Dist.",
+      "Al Masani Dist.",
+      "Mansuriyah Dist."
+    ],
+    "4": [
+      "Al Badiah Dist.",
+      "Al Jarradiyah Dist.",
+      "Al Shumaisi Dist.",
+      "Al Uraija Dist.",
+      "Al Wisham Dist.",
+      "Ar Rafiah Dist.",
+      "Olaishah Dist.",
+      "Sultanah Dist.",
+      "Umm Saleem Dist."
+    ],
+    "14": [
+      "Al Bayan Dist.",
+      "Al Janadriyah Dist.",
+      "Al Maizalah Dist.",
+      "Al Nadheem Dist.",
+      "Al Nadwah Dist.",
+      "Al Rimayah Dist."
+    ],
+    "0": [
+      "Al Dhubbat Dist.",
+      "Al Malaz Dist.",
+      "Al Murabba Dist.",
+      "Al Sulaimaniyah Dist.",
+      "Al Wizarat Dist.",
+      "Al Zahra Dist.",
+      "Jareer Dist."
+    ],
+    "1": [
+      "Al Ezdihar Dist.",
+      "Al Falah Dist.",
+      "Al Maseef Dist.",
+      "Al Mughrazat Dist.",
+      "Al Mursalat Dist.",
+      "Al Nafel Dist.",
+      "Al Nuzha Dist.",
+      "Al Shohda Dist.",
+      "Al Taawun Dist.",
+      "Al Wadi Dist.",
+      "Al Wahah Dist.",
+      "Salahuddin Dist."
+    ],
+    "12": [
+      "Al Faisaliyah Dist.",
+      "Al Farooq Dist.",
+      "Al Jazeerah Dist.",
+      "Al Manakh Dist.",
+      "Al Noor Dist.",
+      "Al Safa Dist."
+    ],
+    "3": [
+      "Al Fayha Dist.",
+      "Al Saadah Dist.",
+      "Al Salam Dist.",
+      "Al Sulay Dist.",
+      "East Naseem Dist.",
+      "Khashm Al An",
+      "West Naseem Dist."
+    ],
+    "16": [
+      "Al Ghadeer Dist.",
+      "Al Muhammadiyah Dist.",
+      "Al Muruj Dist.",
+      "Al Nakheel Dist.",
+      "Al Raed Dist.",
+      "Al Woroud Dist.",
+      "Ar Rahmaniyah Dist.",
+      "King Fahd Dist.",
+      "King Saud University"
+    ],
+    "8": [
+      "Al Hada Dist.",
+      "Al Mahdiyah Dist.",
+      "Assafarat Dist.",
+      "Dhahrat Laban Dist.",
+      "Irqah",
+      "Laban Dist."
+    ],
+    "10": [
+      "Al Hamra Dist.",
+      "Al Khaleej Dist.",
+      "Al Nahdah Dist.",
+      "Ishbiliyah Dist.",
+      "King Faisal Dist."
+    ],
+    "19": [
+      "Al Hazm Dist.",
+      "Al Marwah Dist.",
+      "Dirab Dist.",
+      "Okaz Dist."
+    ],
+    "18": [
+      "Al Mathar Dist.",
+      "Al Nasiriyah Dist.",
+      "Al Olaya Dist.",
+      "Al Sharafiyah Dist.",
+      "East Umm Al Hamam Dist.",
+      "North Mathar Dist.",
+      "West Umm Al Hamam Dist."
+    ],
+    "2": [
+      "Al Munisiyah Dist.",
+      "Al Qadisiyah Dist.",
+      "Al Rimal Dist.",
+      "Al Yarmuk Dist.",
+      "Ghirnatah Dist.",
+      "Outside Riyadh",
+      "Qurtubah Dist."
+    ],
+    "9": [
+      "Al Shifa Dist.",
+      "Al Suwaidi Dist.",
+      "Badr Dist.",
+      "Namar Dist.",
+      "Shubra Dist."
+    ]
+  },
+  "zone_district_scores": {
+    "6": [
+      {
+        "district": "2nd Industrial City",
+        "avg_success": 0.667248010635376
+      },
+      {
+        "district": "Al Iskan Dist.",
+        "avg_success": 0.6214064359664917
+      },
+      {
+        "district": "Al Mishael Dist.",
+        "avg_success": 0.607501745223999
+      },
+      {
+        "district": "Taybah Dist.",
+        "avg_success": 0.4813338816165924
+      }
+    ],
+    "15": [
+      {
+        "district": "Al Oud Dist.",
+        "avg_success": 0.7114534378051758
+      },
+      {
+        "district": "Jabrah Dist.",
+        "avg_success": 0.6648731231689453
+      },
+      {
+        "district": "Ghobairah Dist.",
+        "avg_success": 0.6461006999015808
+      },
+      {
+        "district": "As Salhiyah Dist.",
+        "avg_success": 0.635049045085907
+      },
+      {
+        "district": "Al Khalidiyah Dist.",
+        "avg_success": 0.6213427782058716
+      },
+      {
+        "district": "Manfuha Al Jadidah Dist.",
+        "avg_success": 0.6130227446556091
+      },
+      {
+        "district": "Al Dirah Dist.",
+        "avg_success": 0.6087759733200073
+      },
+      {
+        "district": "Al Futah Dist.",
+        "avg_success": 0.6062975525856018
+      },
+      {
+        "district": "Al Yamamah Dist.",
+        "avg_success": 0.6043592095375061
+      },
+      {
+        "district": "Al Amal Dist.",
+        "avg_success": 0.6003477573394775
+      },
+      {
+        "district": "Al Sinaiyah Dist.",
+        "avg_success": 0.5973358154296875
+      },
+      {
+        "district": "Al Mansurah Dist.",
+        "avg_success": 0.5962105393409729
+      },
+      {
+        "district": "Al Marqab Dist.",
+        "avg_success": 0.5908739566802979
+      },
+      {
+        "district": "Manfuhah Dist.",
+        "avg_success": 0.5860833525657654
+      },
+      {
+        "district": "Utayqah Dist.",
+        "avg_success": 0.5841175317764282
+      },
+      {
+        "district": "Thulaim Dist.",
+        "avg_success": 0.5193436741828918
+      },
+      {
+        "district": "Skirinah Dist.",
+        "avg_success": 0.495972216129303
+      }
+    ],
+    "17": [
+      {
+        "district": "Al Rawabi Dist.",
+        "avg_success": 0.6503270864486694
+      },
+      {
+        "district": "Ar Rabwah Dist.",
+        "avg_success": 0.6319000720977783
+      },
+      {
+        "district": "Al Andalus Dist.",
+        "avg_success": 0.6190515160560608
+      },
+      {
+        "district": "Al Rayan Dist.",
+        "avg_success": 0.602274477481842
+      },
+      {
+        "district": "Al Rawdah Dist.",
+        "avg_success": 0.5976336002349854
+      },
+      {
+        "district": "Al Manar Dist.",
+        "avg_success": 0.5833131670951843
+      },
+      {
+        "district": "King Abdullah Dist.",
+        "avg_success": 0.5747126936912537
+      },
+      {
+        "district": "Al Quds Dist.",
+        "avg_success": 0.5577495098114014
+      }
+    ],
+    "7": [
+      {
+        "district": "Ar Rabie Dist.",
+        "avg_success": 0.6942777633666992
+      },
+      {
+        "district": "Al Nada Dist.",
+        "avg_success": 0.6861709952354431
+      },
+      {
+        "district": "Al Sahafah Dist.",
+        "avg_success": 0.64751136302948
+      },
+      {
+        "district": "Al Malqa Dist.",
+        "avg_success": 0.6235137581825256
+      },
+      {
+        "district": "Al Yasmeen Dist.",
+        "avg_success": 0.6150137782096863
+      },
+      {
+        "district": "Al Aqeeq Dist.",
+        "avg_success": 0.6034934520721436
+      },
+      {
+        "district": "Al Arid Dist.",
+        "avg_success": 0.5798949003219604
+      },
+      {
+        "district": "Al Narjis Dist.",
+        "avg_success": 0.5755951404571533
+      },
+      {
+        "district": "Al Qairawan Dist.",
+        "avg_success": 0.5652056336402893
+      }
+    ],
+    "5": [
+      {
+        "district": "Al Asemah Dist.",
+        "avg_success": 0.6858194470405579
+      },
+      {
+        "district": "Hiteen Dist.",
+        "avg_success": 0.649834394454956
+      },
+      {
+        "district": "East Dhahrat Al Oudah Dist.",
+        "avg_success": 0.6227273941040039
+      }
+    ],
+    "11": [
+      {
+        "district": "Dhahrat Al Badeah Dist.",
+        "avg_success": 0.6138293743133545
+      },
+      {
+        "district": "Al Zahrah Dist.",
+        "avg_success": 0.5932949781417847
+      },
+      {
+        "district": "West Oraija Dist.",
+        "avg_success": 0.5924264788627625
+      },
+      {
+        "district": "Tuwaiq Dist.",
+        "avg_success": 0.5892832279205322
+      },
+      {
+        "district": "West Suwaidi Dist.",
+        "avg_success": 0.5864452719688416
+      },
+      {
+        "district": "Al Awaly Dist.",
+        "avg_success": 0.585390031337738
+      },
+      {
+        "district": "Middle Oraija Dist.",
+        "avg_success": 0.5846501588821411
+      }
+    ],
+    "13": [
+      {
+        "district": "Mansuriyah Dist.",
+        "avg_success": 0.6361495852470398
+      },
+      {
+        "district": "Al Aziziyah Dist.",
+        "avg_success": 0.6091659069061279
+      },
+      {
+        "district": "Al Dar Al Baida Dist.",
+        "avg_success": 0.6056442260742188
+      },
+      {
+        "district": "Al Masani Dist.",
+        "avg_success": 0.5676885843276978
+      }
+    ],
+    "4": [
+      {
+        "district": "Al Wisham Dist.",
+        "avg_success": 0.7613588571548462
+      },
+      {
+        "district": "Al Uraija Dist.",
+        "avg_success": 0.7213621735572815
+      },
+      {
+        "district": "Umm Saleem Dist.",
+        "avg_success": 0.6631003022193909
+      },
+      {
+        "district": "Sultanah Dist.",
+        "avg_success": 0.6489217877388
+      },
+      {
+        "district": "Al Jarradiyah Dist.",
+        "avg_success": 0.6369937062263489
+      },
+      {
+        "district": "Ar Rafiah Dist.",
+        "avg_success": 0.6297373175621033
+      },
+      {
+        "district": "Al Badiah Dist.",
+        "avg_success": 0.6169358491897583
+      },
+      {
+        "district": "Al Shumaisi Dist.",
+        "avg_success": 0.6073136925697327
+      },
+      {
+        "district": "Olaishah Dist.",
+        "avg_success": 0.5949287414550781
+      }
+    ],
+    "14": [
+      {
+        "district": "Al Rimayah Dist.",
+        "avg_success": 0.7150736451148987
+      },
+      {
+        "district": "Al Nadwah Dist.",
+        "avg_success": 0.6423196792602539
+      },
+      {
+        "district": "Al Bayan Dist.",
+        "avg_success": 0.6240502595901489
+      },
+      {
+        "district": "Al Janadriyah Dist.",
+        "avg_success": 0.6041751503944397
+      },
+      {
+        "district": "Al Maizalah Dist.",
+        "avg_success": 0.5861684083938599
+      },
+      {
+        "district": "Al Nadheem Dist.",
+        "avg_success": 0.5488525629043579
+      }
+    ],
+    "0": [
+      {
+        "district": "Al Sulaimaniyah Dist.",
+        "avg_success": 0.6418969631195068
+      },
+      {
+        "district": "Al Malaz Dist.",
+        "avg_success": 0.6195338368415833
+      },
+      {
+        "district": "Al Murabba Dist.",
+        "avg_success": 0.6194333434104919
+      },
+      {
+        "district": "Al Wizarat Dist.",
+        "avg_success": 0.5967050194740295
+      },
+      {
+        "district": "Al Dhubbat Dist.",
+        "avg_success": 0.5693284273147583
+      },
+      {
+        "district": "Jareer Dist.",
+        "avg_success": 0.5586117506027222
+      },
+      {
+        "district": "Al Zahra Dist.",
+        "avg_success": 0.529873788356781
+      }
+    ],
+    "1": [
+      {
+        "district": "Al Wadi Dist.",
+        "avg_success": 0.6830133199691772
+      },
+      {
+        "district": "Al Mughrazat Dist.",
+        "avg_success": 0.6752507090568542
+      },
+      {
+        "district": "Salahuddin Dist.",
+        "avg_success": 0.6550332307815552
+      },
+      {
+        "district": "Al Falah Dist.",
+        "avg_success": 0.6416780352592468
+      },
+      {
+        "district": "Al Nafel Dist.",
+        "avg_success": 0.6337277293205261
+      },
+      {
+        "district": "Al Mursalat Dist.",
+        "avg_success": 0.6319440007209778
+      },
+      {
+        "district": "Al Shohda Dist.",
+        "avg_success": 0.6250929832458496
+      },
+      {
+        "district": "Al Maseef Dist.",
+        "avg_success": 0.6139813661575317
+      },
+      {
+        "district": "Al Taawun Dist.",
+        "avg_success": 0.6001745462417603
+      },
+      {
+        "district": "Al Ezdihar Dist.",
+        "avg_success": 0.5849714875221252
+      },
+      {
+        "district": "Al Nuzha Dist.",
+        "avg_success": 0.5758503675460815
+      },
+      {
+        "district": "Al Wahah Dist.",
+        "avg_success": 0.5660560727119446
+      }
+    ],
+    "12": [
+      {
+        "district": "Al Safa Dist.",
+        "avg_success": 0.6839873194694519
+      },
+      {
+        "district": "Al Faisaliyah Dist.",
+        "avg_success": 0.63068687915802
+      },
+      {
+        "district": "Al Manakh Dist.",
+        "avg_success": 0.5954429507255554
+      },
+      {
+        "district": "Al Jazeerah Dist.",
+        "avg_success": 0.5816662907600403
+      },
+      {
+        "district": "Al Farooq Dist.",
+        "avg_success": 0.5777058005332947
+      },
+      {
+        "district": "Al Noor Dist.",
+        "avg_success": 0.5111523866653442
+      }
+    ],
+    "3": [
+      {
+        "district": "Khashm Al An",
+        "avg_success": 0.683538556098938
+      },
+      {
+        "district": "Al Sulay Dist.",
+        "avg_success": 0.6342721581459045
+      },
+      {
+        "district": "Al Saadah Dist.",
+        "avg_success": 0.6279008388519287
+      },
+      {
+        "district": "Al Fayha Dist.",
+        "avg_success": 0.6162803173065186
+      },
+      {
+        "district": "West Naseem Dist.",
+        "avg_success": 0.6129651665687561
+      },
+      {
+        "district": "Al Salam Dist.",
+        "avg_success": 0.6100703477859497
+      },
+      {
+        "district": "East Naseem Dist.",
+        "avg_success": 0.5979113578796387
+      }
+    ],
+    "16": [
+      {
+        "district": "Al Ghadeer Dist.",
+        "avg_success": 0.673700213432312
+      },
+      {
+        "district": "Al Woroud Dist.",
+        "avg_success": 0.6530534625053406
+      },
+      {
+        "district": "Al Nakheel Dist.",
+        "avg_success": 0.6508966088294983
+      },
+      {
+        "district": "Ar Rahmaniyah Dist.",
+        "avg_success": 0.6443390250205994
+      },
+      {
+        "district": "Al Raed Dist.",
+        "avg_success": 0.6326775550842285
+      },
+      {
+        "district": "Al Muruj Dist.",
+        "avg_success": 0.6290309429168701
+      },
+      {
+        "district": "King Fahd Dist.",
+        "avg_success": 0.579493522644043
+      },
+      {
+        "district": "Al Muhammadiyah Dist.",
+        "avg_success": 0.5565427541732788
+      },
+      {
+        "district": "King Saud University",
+        "avg_success": 0.5244268178939819
+      }
+    ],
+    "8": [
+      {
+        "district": "Assafarat Dist.",
+        "avg_success": 0.7018037438392639
+      },
+      {
+        "district": "Irqah",
+        "avg_success": 0.6745617985725403
+      },
+      {
+        "district": "Dhahrat Laban Dist.",
+        "avg_success": 0.6257011294364929
+      },
+      {
+        "district": "Al Hada Dist.",
+        "avg_success": 0.607795774936676
+      },
+      {
+        "district": "Laban Dist.",
+        "avg_success": 0.5972313284873962
+      },
+      {
+        "district": "Al Mahdiyah Dist.",
+        "avg_success": 0.5851497054100037
+      }
+    ],
+    "10": [
+      {
+        "district": "Al Hamra Dist.",
+        "avg_success": 0.6305463910102844
+      },
+      {
+        "district": "Al Nahdah Dist.",
+        "avg_success": 0.6243350505828857
+      },
+      {
+        "district": "Ishbiliyah Dist.",
+        "avg_success": 0.6082618236541748
+      },
+      {
+        "district": "King Faisal Dist.",
+        "avg_success": 0.5938435196876526
+      },
+      {
+        "district": "Al Khaleej Dist.",
+        "avg_success": 0.5642567276954651
+      }
+    ],
+    "19": [
+      {
+        "district": "Al Marwah Dist.",
+        "avg_success": 0.6250738501548767
+      },
+      {
+        "district": "Okaz Dist.",
+        "avg_success": 0.5931786894798279
+      },
+      {
+        "district": "Al Hazm Dist.",
+        "avg_success": 0.5775508284568787
+      },
+      {
+        "district": "Dirab Dist.",
+        "avg_success": 0.5358046889305115
+      }
+    ],
+    "18": [
+      {
+        "district": "East Umm Al Hamam Dist.",
+        "avg_success": 0.6567800641059875
+      },
+      {
+        "district": "Al Sharafiyah Dist.",
+        "avg_success": 0.638871967792511
+      },
+      {
+        "district": "North Mathar Dist.",
+        "avg_success": 0.635880172252655
+      },
+      {
+        "district": "West Umm Al Hamam Dist.",
+        "avg_success": 0.6268072724342346
+      },
+      {
+        "district": "Al Mathar Dist.",
+        "avg_success": 0.6218332052230835
+      },
+      {
+        "district": "Al Olaya Dist.",
+        "avg_success": 0.5931310057640076
+      },
+      {
+        "district": "Al Nasiriyah Dist.",
+        "avg_success": 0.5449187159538269
+      }
+    ],
+    "2": [
+      {
+        "district": "Al Qadisiyah Dist.",
+        "avg_success": 0.6308915615081787
+      },
+      {
+        "district": "Qurtubah Dist.",
+        "avg_success": 0.6205101013183594
+      },
+      {
+        "district": "Ghirnatah Dist.",
+        "avg_success": 0.619676411151886
+      },
+      {
+        "district": "Al Yarmuk Dist.",
+        "avg_success": 0.6186645030975342
+      },
+      {
+        "district": "Al Rimal Dist.",
+        "avg_success": 0.6087133288383484
+      },
+      {
+        "district": "Al Munisiyah Dist.",
+        "avg_success": 0.6057561039924622
+      },
+      {
+        "district": "Outside Riyadh",
+        "avg_success": 0.5588545203208923
+      }
+    ],
+    "9": [
+      {
+        "district": "Al Suwaidi Dist.",
+        "avg_success": 0.6229787468910217
+      },
+      {
+        "district": "Shubra Dist.",
+        "avg_success": 0.6204185485839844
+      },
+      {
+        "district": "Badr Dist.",
+        "avg_success": 0.6027174592018127
+      },
+      {
+        "district": "Al Shifa Dist.",
+        "avg_success": 0.5822730660438538
+      },
+      {
+        "district": "Namar Dist.",
+        "avg_success": 0.568499743938446
+      }
+    ]
+  }
+}
