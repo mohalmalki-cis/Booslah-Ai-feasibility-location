@@ -4,7 +4,7 @@
 
 ## Graduation Project | King Saud University
 
-Boosla is a Flutter mobile app that helps entrepreneurs in Riyadh find the best location to open their business. The user enters their project details business type (café, restaurant, grocery), target audience, budget, area, and operating preferences — and the app uses AI and a real Riyadh districts dataset to recommend the top locations and explain why.
+Boosla is a Flutter mobile app that helps entrepreneurs in Riyadh find the best location to open their business. The user enters their project details business type (café, restaurant, grocery), target audience, budget, area, and operating preferences and the app uses AI and a real Riyadh districts dataset to recommend the top locations and explain why.
 
 **What the app does:**
 
